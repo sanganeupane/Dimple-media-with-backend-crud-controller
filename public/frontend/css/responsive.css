@@ -1,0 +1,81 @@
+@media only screen and (min-width: 769px){
+
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+	
+li.nav-item {
+    padding: .5rem;
+}
+a.nav-link {
+    font-size: .8rem;
+}
+.section-header1 {
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+body{
+	font-size: 14px;
+}
+ul.home-confession-list li {
+    padding: .8rem 0;
+}
+a.border-btn {
+    padding: .7rem 2rem;
+    margin-top: 1.5rem;
+}
+ul.opinion-list li {
+    padding: 1.3rem 0;
+}
+.section-header3 {
+    font-size: 1.4rem;
+}
+.talk-block {
+    margin-bottom: 1rem;
+}
+ul.news-list li {
+    padding: 1.2rem 0.6rem;
+}
+ul.news-list li a {
+    font-size: 16px;
+}
+.news-list-date {
+    font-size: 13px;
+}
+section#pageBanner {
+    padding: 60px 0;
+}
+.page-title {
+    font-size: 2rem;
+}
+.abt-title {
+    font-size: 1.6rem;
+}
+.team-card {
+    margin-bottom: 2rem;
+}
+.contact-icon-block {
+    margin-bottom: 2rem;
+}
+#advertise {
+    font-size: 1.3rem;
+}
+
+}
+
+@media only screen and (max-width: 576px){
+
+.footer-4th {
+    text-align: left;
+}
+.footer-desc {
+    margin-bottom: 1rem;
+}
+.pre-footer {
+    padding: 2rem 0;
+}
+
+}

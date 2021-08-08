@@ -1,0 +1,498 @@
+body{
+    color: #333;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+a.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    background: #9c79e4;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 14px;
+}
+a.back-to-top:hover {
+    background: #fff;
+}
+
+div#mainMenu {
+    box-shadow: 0 0 6px #00000050;
+    padding: 5px 0;
+}
+a.navbar-brand .fa {
+    color: #9c79e4;
+    font-size: 3rem;
+}
+a.nav-link {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+li.nav-item {
+    padding: 1rem;
+}
+li.nav-item.active a.nav-link, li.nav-item:hover a.nav-link {
+    color: #9c79e4;
+}
+footer , footer a{
+    background: #222;
+    color: #aaa;
+}
+.pre-footer {
+    padding: 3rem 0;
+}
+.cp {
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid;
+}
+.cp a{
+    color: #fff;
+}
+.footer-4th{
+    text-align: right;
+}
+.footer-title{
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.footer-list .fa {
+    margin-left: 10px;
+    width: 14px;
+    font-size: 1.11rem;
+}
+.footer-list, .footer-desc li {
+    margin-bottom: 4px;
+}
+.footer-desc li a:hover{
+    color: #fff;
+}
+#longImage {
+    padding: 2rem 0;
+}
+#longImage img{
+    width: 100%;
+}
+#confessionSection{
+    padding: 3rem 0;
+    background: #f5f5f5;
+}
+.section-header1 {
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background: #9c79e4;
+}
+ul.home-confession-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.home-confession-list li {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #aaa;
+    background: #fff;
+    font-weight: 600;
+}
+ul.home-confession-list li a{
+    display: inline-block;
+    color: #555;
+    transition: all 0.3s ease;
+}
+ul.home-confession-list li a:hover{
+    color: #9c79e4;
+    transform: scale(1.05);
+}
+
+a.border-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+    border: 2px solid #9c79e4;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+a.border-btn:hover {
+    background: #9c79e4;
+    color: #fff;
+}
+#opinionSection{
+    padding: 3.5rem 0;
+}
+.section-header2 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+ul.opinion-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.opinion-list li {
+    text-align: center;
+    padding: 1.6rem 0;
+    background: rgba(255, 255, 255,0.7);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+ul.opinion-list li:hover {
+    background: rgba(255, 255, 255,1);
+}
+ul.opinion-list li a{
+    display: inline-block;
+    color: #222;
+    transition: all 0.4s ease;
+}
+ul.opinion-list li a:hover{
+    transform: scale(1.08);
+}
+#opinionSection a.border-btn{
+    color: #fff;
+}
+#talksSection{
+    padding: 3rem 0;
+}
+.section-header3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.title-bar{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #9c79e4;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1;
+    margin: 1rem 0;
+}
+.video-wrapper{
+    position: relative;
+}
+.video-wrapper img{
+    width: 100%;
+}
+.video-play-btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.video-play-btn .fa{
+    font-size: 20px;
+    background: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #9c79e4;
+}
+.talk-block-txt{
+    background: #9c79e4;
+    padding: 1.1rem 0.5rem;
+    text-align: center;
+}
+.talk-block-title {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+.talk-block-excerpt {
+    font-size: 15px;
+}
+.talk-block {
+    box-shadow: 0 0 8px 4px #00000030;
+    margin-bottom: .5rem;
+}
+#html5-watermark {
+    display: none !important;
+}
+#newsSection{
+    padding: 3rem 0;
+    background: #f5f5f5;
+}
+ul.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.news-list li {
+    text-align: center;
+    padding: 1.6rem 0;
+    background: #9c79e4;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+ul.news-list li a{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.4s ease;
+}
+ul.news-list li a:hover{
+    transform: scale(1.08);
+}
+.news-list-date{
+    font-size: 14px;
+    color: #222;
+    font-weight: 600;
+}
+.footer-social{
+    margin-top: 10px;
+}
+.footer-social img {
+    width: 36px;
+    margin: 5px;
+}
+section#pageBanner {
+    padding: 80px 0;
+    background-position: center center;
+}
+.page-title {
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.page-padd{
+    padding: 4rem 0;
+}
+#confessionSearch{
+    position: relative;
+    border: 1px solid #ccc;
+}
+#confessionSearch input {
+    width: 100%;
+    outline: none;
+    padding: 8px 15px;
+    border: none;
+}
+#confessionSearch button{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 0 1rem;
+    border: none;
+    background: #9c79e4;
+    color: #fff;
+}
+#confessionSearch button{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 0 15px;
+    border: none;
+    background: #9c79e4;
+    color: #fff;
+}
+#talksList .talk-block {
+    margin-bottom: 1.6rem;
+}
+.news-block {
+    padding: 1rem;
+    border: 1px solid #bbb;
+    margin-bottom: 1.6rem;
+}
+.news-block-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    color: #9c79e4;
+}
+.news-block-excerpt {
+    font-size: 14px;
+    color: #666;
+}
+.news-block-date {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+}
+.news-block hr{
+    margin: 0.5rem 0;
+}
+a.news-block-btn {
+    display: inline-block;
+    color: #fff;
+    padding: 7px 10px;
+    background: #9c79e4;
+    transition: all 0.3s ease;
+}
+a.news-block-btn:hover {
+    background: #7445d4;
+}
+.confession-block{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1.5rem;
+}
+.confession-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.confession-block-age-date {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1;
+    font-size: 13px;
+    margin: 10px 0;
+}
+.confession-block-msg-excerpt {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #777;
+}
+a.confession-block-btn {
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 20px;
+    background: #9c79e4;
+    margin-top: 10px;
+}
+a.confession-block-btn:hover {
+    background: #7445d4;
+}
+.opinion-block hr{
+    margin: 0.5rem 0;
+}
+.opinion-block {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    margin-bottom: 1.5rem;
+}
+.opinion-block-title {
+    font-weight: 600;
+}
+.opinion-block-desc {
+    font-size: 14px;
+}
+.abt-title {
+    position: relative;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    margin-bottom: 1.4rem;
+}
+.abt-title:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: blue;
+    bottom: 0;
+    left: 0;
+}
+#team{
+    background: #f5f5f5;
+}
+.team-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.team-profile{
+    text-align: center;
+    padding: 0.6rem;
+    background: #9c79e4;
+    color: #fff;
+}
+.team-name {
+    font-weight: 600;
+    font-size: 15px;
+}
+.team-post {
+    font-size: 12px;
+}
+.contact-icon-block{
+    text-align: center;
+}
+.contact-icon-block .fa {
+    font-size: 2rem;
+    width: 72px;
+    height: 72px;
+    background: #9c79e4;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#advertise {
+    background: #9c79e4;
+    padding: 2.5rem 0;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 600;
+}
+.recent-sidebar-title {
+    background: #9c79e4;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.recent-sidebar-body {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+}
+.recent-news-title a {
+    font-weight: 600;
+    color: #555;
+}
+.recent-news-title a:hover {
+    color: #9c79e4;
+}
+.recent-news-date {
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    font-style: italic;
+}
+.recent-news-list {
+    margin-bottom: 1rem;
+}
+.single-confession-address-date {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    line-height: 1;
+    font-size: 14px;
+    margin: 10px 0;
+}
